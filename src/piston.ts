@@ -48,7 +48,8 @@ class Piston {
       run_timeout: runTimeout,
       args: [],
     });
-
+    response.data.result.expectedOutput = response.data.result.expected_output;
+    delete response.data.result.expected_output;
     return response.data;
   }
 }
