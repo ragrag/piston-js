@@ -92,7 +92,7 @@ Type of Language required in [`Submission`](#Submission)
 | Property | Type | Description |Default |
 | ------------- |:-------------:|-------------|--------------|
 | name |`string` | name of the language | - |
-| version | [Language](#Language) | version of the language  |- |
+| version | `string` | version of the language  |- |
 <br/>
 
 
@@ -106,7 +106,7 @@ An object representing the result of a [`Submission`](#Submission)
 | ------------- |:-------------:|-------------|
 | compile? | [ProcessOutput](#ProcessOutput) | only available in compiled languages | - |
 | run | [ProcessOutput](#ProcessOutput) | result of each individual stdin in the batch  |
-| result | [BatchResult](#BatchResult) | name of the file to execute, 'e.g: Main.java'. Some languages like Java need files to have the same name as the Main class.  |
+| result | [BatchResult](#BatchResult) | Final result of the submission batch after evaluation  |
 
 <br/>
 
