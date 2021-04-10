@@ -1,6 +1,6 @@
 {
   "name": "piston-js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Raggi @ragrag",
   "homepage": "https://github.com/ragrag/piston-js",
   "keywords": [
@@ -27,6 +27,7 @@
     "/dist",
     "/src"
   ],
+  "types": "dist/index.d.ts",
   "devDependencies": {
     "@types/node": "^14.14.37",
     "@typescript-eslint/eslint-plugin": "^4.20.0",
