@@ -164,4 +164,4 @@ An enum representing the verdict of a submission as strings
 <br/>
 
 [pr-welcoming-image]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
-[pr-welcoming-url]: https://github.com/koajs/koa/pull/new
+[pr-welcoming-url]: https://github.com/ragrag/piston-js/pulls
