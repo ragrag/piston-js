@@ -1,4 +1,3 @@
-import 'dotenv/config';
 import { Submission, SubmissionResult } from './lib/interfaces/submission.interface';
 import Client from './lib/client';
 import { AxiosInstance } from 'axios';
